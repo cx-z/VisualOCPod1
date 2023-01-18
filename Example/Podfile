@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'VisualOCPod1_Example' do
+  pod 'VisualOCPod1', :path => '../'
+
+  target 'VisualOCPod1_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
