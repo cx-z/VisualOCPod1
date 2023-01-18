@@ -1,0 +1,16 @@
+PODS:
+  - VisualOCPod1 (0.1.0)
+
+DEPENDENCIES:
+  - VisualOCPod1 (from `../`)
+
+EXTERNAL SOURCES:
+  VisualOCPod1:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VisualOCPod1: 5b5211f92ed8a85efa2d41167372adc6d4d57bda
+
+PODFILE CHECKSUM: 33852ae2abb43b2b96ddacf6974f36da9b71600c
+
+COCOAPODS: 1.11.3

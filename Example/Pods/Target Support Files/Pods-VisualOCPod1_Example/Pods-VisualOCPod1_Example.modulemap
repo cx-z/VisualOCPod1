@@ -1,0 +1,6 @@
+framework module Pods_VisualOCPod1_Example {
+  umbrella header "Pods-VisualOCPod1_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
