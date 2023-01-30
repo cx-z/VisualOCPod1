@@ -24,8 +24,8 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/visualzhang/VisualOCPod1'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'visualzhang' => 'visualzhang@tencent.com' }
-  s.source           = { :git => 'https://github.com/cx-z/VisualOCPod1.git', :tag => s.version.to_s }
+  s.author           = { 'cx-z' => '1612379420@qq.com' }
+  s.source           = { :git => 'https://@github.com/cx-z/VisualOCPod1.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
 

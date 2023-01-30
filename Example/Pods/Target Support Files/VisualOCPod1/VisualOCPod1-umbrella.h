@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIView+frame.h"
 
 FOUNDATION_EXPORT double VisualOCPod1VersionNumber;
 FOUNDATION_EXPORT const unsigned char VisualOCPod1VersionString[];
