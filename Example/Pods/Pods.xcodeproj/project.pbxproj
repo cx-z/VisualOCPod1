@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0210798F08052DDFFE37AB24ADB9EA76 /* Pods-VisualOCPod1_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D38D88BD1520C9A7C64B13863ADEA5 /* Pods-VisualOCPod1_Example-dummy.m */; };
+		050564ED2987BCBE0083DCF1 /* QUIHighLightLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 050564EB2987BCBE0083DCF1 /* QUIHighLightLabel.h */; };
+		050564EE2987BCBE0083DCF1 /* QUIHighLightLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 050564EC2987BCBE0083DCF1 /* QUIHighLightLabel.m */; };
 		254DD1EA7538BEC9418DB44698FDBD1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3C46EF9F75ACB3961A5ACBE737571F5D /* Pods-VisualOCPod1_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE35263287946BF78AA36874DC9E6086 /* Pods-VisualOCPod1_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4237F9F6C76B4D0DCCA4A35981326A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050564EB2987BCBE0083DCF1 /* QUIHighLightLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QUIHighLightLabel.h; path = VisualOCPod1/Classes/QUIHighLightLabel.h; sourceTree = "<group>"; };
+		050564EC2987BCBE0083DCF1 /* QUIHighLightLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QUIHighLightLabel.m; path = VisualOCPod1/Classes/QUIHighLightLabel.m; sourceTree = "<group>"; };
 		15D38D88BD1520C9A7C64B13863ADEA5 /* Pods-VisualOCPod1_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VisualOCPod1_Example-dummy.m"; sourceTree = "<group>"; };
 		1657F9C6799D45549FCF330A5CEB75F3 /* Pods-VisualOCPod1_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VisualOCPod1_Example-umbrella.h"; sourceTree = "<group>"; };
 		26CA8CD1A934529763EABBA8F774DD96 /* Pods-VisualOCPod1_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VisualOCPod1_Example"; path = Pods_VisualOCPod1_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,20 +51,20 @@
 		579F174D8EA188FDB0B526554AC3563B /* Pods-VisualOCPod1_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisualOCPod1_Example-frameworks.sh"; sourceTree = "<group>"; };
 		59908661313D6075E4EA27853BBB5A02 /* Pods-VisualOCPod1_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VisualOCPod1_Tests-dummy.m"; sourceTree = "<group>"; };
 		5A725A1612B51F794E84C72B3F25C7B0 /* VisualOCPod1-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VisualOCPod1-Info.plist"; sourceTree = "<group>"; };
-		6CA82036B41C4CACA51BC848CBFB5E11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6CA82036B41C4CACA51BC848CBFB5E11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6F8F56A0EA682FE944AB918A9ECBD185 /* Pods-VisualOCPod1_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisualOCPod1_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		750EACE5772CAA12F17D7E1DCB7C7858 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		750EACE5772CAA12F17D7E1DCB7C7858 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7E7DB6EBB48FAAC039BD6E76286C4D20 /* Pods-VisualOCPod1_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VisualOCPod1_Tests"; path = Pods_VisualOCPod1_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF2E334AAD00F581960410072413FB9 /* Pods-VisualOCPod1_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VisualOCPod1_Tests.modulemap"; sourceTree = "<group>"; };
 		8412115AD10B98127022D97D0DF906E8 /* VisualOCPod1 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VisualOCPod1; path = VisualOCPod1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F828150EBC982DA51DF5C484BD76CDB /* VisualOCPod1.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VisualOCPod1.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8F828150EBC982DA51DF5C484BD76CDB /* VisualOCPod1.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VisualOCPod1.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		908283B81EB42593790C0FA3ECCC5C06 /* VisualOCPod1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VisualOCPod1-dummy.m"; sourceTree = "<group>"; };
 		9346A700CD55D33C53013A6AEF891A24 /* Pods-VisualOCPod1_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VisualOCPod1_Example-Info.plist"; sourceTree = "<group>"; };
 		959F3800ACD9FC79F76DAE19D0831F5B /* Pods-VisualOCPod1_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VisualOCPod1_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		96045E20F5BEA0AABB4903AC5FE15D77 /* UIView+frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+frame.m"; path = "VisualOCPod1/Classes/UIView+frame.m"; sourceTree = "<group>"; };
 		9ADBBB13E82E02F961B442FAE332B890 /* Pods-VisualOCPod1_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VisualOCPod1_Example.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FF061B6E5F909DD5A4417C172036186 /* Pods-VisualOCPod1_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisualOCPod1_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A98E761F8EB3A357A4341D91F77F530D /* Pods-VisualOCPod1_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisualOCPod1_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AB4D3377767D716525D947B77A5CEB53 /* Pods-VisualOCPod1_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VisualOCPod1_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -157,6 +161,8 @@
 			children = (
 				C93115DC96BFB57821CFB5EE044ADA7C /* UIView+frame.h */,
 				96045E20F5BEA0AABB4903AC5FE15D77 /* UIView+frame.m */,
+				050564EB2987BCBE0083DCF1 /* QUIHighLightLabel.h */,
+				050564EC2987BCBE0083DCF1 /* QUIHighLightLabel.m */,
 				E27E55B6DE757CB9C255AF850B9E9CDD /* Pod */,
 				1EC27F90B8D52D8854343E1B939EE737 /* Support Files */,
 			);
@@ -241,6 +247,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				050564ED2987BCBE0083DCF1 /* QUIHighLightLabel.h in Headers */,
 				B2C02BE9D14417984AF8DE1F048248BA /* UIView+frame.h in Headers */,
 				D39A015B45911C607E7728FDC4411704 /* VisualOCPod1-umbrella.h in Headers */,
 			);
@@ -371,6 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				050564EE2987BCBE0083DCF1 /* QUIHighLightLabel.m in Sources */,
 				ED9CEAC5E30D845EC572C4B7A42F4BFD /* UIView+frame.m in Sources */,
 				A980B741ACEF4007F5DD23291C9B960B /* VisualOCPod1-dummy.m in Sources */,
 			);
@@ -597,8 +605,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
